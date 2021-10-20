@@ -22,7 +22,7 @@ public class Triangulo { // se inicia en mayúscula, en Singular
         return  area;
     }
     public boolean validarDatos(){
-        if(a>b && b>c) {
+        if(a<b && b<c){
             return true;
         }
         else {
