@@ -19,7 +19,13 @@ public class Ejercicio2 {
         }
         System.out.println("--------------------------------------------------");
         System.out.println("Promedio de Sueldos:" + administrador.calcularPromedioSueldos());
-
+        System.out.println("Buscar profesor...");
+        Profesor profe = administrador.buscarProfesor("12345678");
+        if(profe!=null){
+            System.out.println(profe.getNombre() + "  " + profe.calcularSueldo());
+        }else{
+            System.out.println("No está registrado");
+        }
 
     }
 }

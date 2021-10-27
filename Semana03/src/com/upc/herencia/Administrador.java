@@ -22,6 +22,15 @@ public class Administrador {
         return (suma/this.arregloProfesores.size());
     }
 
+    public Profesor buscarProfesor(String dni){
+        for(Profesor p: this.arregloProfesores){
+            if (p.getDni()==dni){
+                return p;
+            }
+        }
+        return null;
+    }
+
     public List<Profesor> getArregloProfesores() {
         return arregloProfesores;
     }
