@@ -8,5 +8,6 @@ public class Ejercicio1 {
                 "12365478",40,20);
 
         System.out.println("Nombre:" + profesorTC1.getNombre() + "  " + profesorTC1.calcularSueldo());
+        System.out.println("Nombre:" + profesorTP1.getNombre() + "  " + profesorTP1.calcularSueldo());
     }
 }
