@@ -21,6 +21,7 @@ public class Main {
         Participante participante  = administrador.buscarParticipante("88888888");
         if(participante!=null) {
             System.out.println("Encontrado:" + participante.getNombre());
+            System.out.println("Puntaje:" + participante.calcularPuntaje());
         }else {
             System.out.println("No encontrado");
         }
