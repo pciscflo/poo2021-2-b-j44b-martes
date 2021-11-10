@@ -24,12 +24,5 @@ public class Main {
         System.out.println("IGV:" + factura1.calcularIGV());
         System.out.println("TOTAL:" + factura1.calcularTotalAPagar());
 
-
-
-
-
-
-
-
     }
 }
