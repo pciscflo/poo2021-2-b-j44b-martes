@@ -34,4 +34,12 @@ public class Tanque extends Atacante{
     public void setTorreta(Torreta torreta) {
         this.torreta = torreta;
     }
+
+    @Override
+    public String toString() {
+        return "Tanque{" +
+                "modelo='" + modelo + '\'' +
+                ", torreta=" + torreta +
+                '}';
+    }
 }

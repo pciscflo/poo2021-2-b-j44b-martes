@@ -24,4 +24,12 @@ public class Torreta {
     public void setTipoMunicion(String tipoMunicion) {
         this.tipoMunicion = tipoMunicion;
     }
+
+    @Override
+    public String toString() {
+        return "Torreta{" +
+                "modelo='" + modelo + '\'' +
+                ", tipoMunicion='" + tipoMunicion + '\'' +
+                '}';
+    }
 }

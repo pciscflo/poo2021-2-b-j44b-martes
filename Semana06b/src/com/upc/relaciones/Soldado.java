@@ -29,4 +29,12 @@ public class Soldado extends Atacante{
     public void setGrado(int grado) {
         this.grado = grado;
     }
+
+    @Override
+    public String toString() {
+        return "Soldado{" +
+                "nombre='" + nombre + '\'' +
+                ", grado=" + grado +
+                '}';
+    }
 }

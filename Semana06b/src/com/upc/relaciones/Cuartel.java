@@ -28,4 +28,28 @@ public class Cuartel {
         }
         return suma/contadorSoldados;
     }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public List<Atacante> getArregloAtancantes() {
+        return arregloAtancantes;
+    }
+
+    public void setArregloAtancantes(List<Atacante> arregloAtancantes) {
+        this.arregloAtancantes = arregloAtancantes;
+    }
 }
