@@ -10,6 +10,10 @@ public class Soldado extends Atacante{
         this.grado = grado;
     }
 
+    public void validarGrado() throws Exception {
+        if(this.grado<1 || this.grado>9) throw new Exception("Grado debe ser de 1 a 9");
+    }
+
     public String atacar() {
         return "Piu!";
     }

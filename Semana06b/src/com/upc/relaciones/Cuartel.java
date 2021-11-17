@@ -13,8 +13,13 @@ public class Cuartel {
         this.nombre = nombre;
         this.arregloAtancantes = new ArrayList<>();
     }
-    public void registrar(Atacante atacante){
-        this.arregloAtancantes.add(atacante);
+    public void registrar(Atacante atacante) throws Exception{
+        if(atacante instanceof Soldado){
+            ((Soldado) atacante).validarGrado();
+            this.getArregloAtancantes().add(atacante);
+        }else {
+            this.arregloAtancantes.add(atacante);
+        }
     }
     public  double obtenerCapacidadAtaque(){
         //obtener el promedio de edades de los soldados
