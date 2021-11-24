@@ -4,13 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JefeEnvios {
+    private static JefeEnvios jefeEnvios = new JefeEnvios("Unico");
+
     private List<Envio> envios; // ArrayList<Envio> envios;//no es correcto
     private String nombre;
 
-    public JefeEnvios() {
+    public static JefeEnvios obtenerInstancia(){
+        return jefeEnvios;
     }
 
-    public JefeEnvios( String nombre) {
+    private JefeEnvios() {
+    }
+
+    private JefeEnvios( String nombre) {
         this.nombre = nombre;
         envios =  new ArrayList<>();
     }

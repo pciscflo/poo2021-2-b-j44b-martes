@@ -8,7 +8,7 @@ public class EjercicioGrupalMain {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int codigo;
-        JefeEnvios jefe = new JefeEnvios("Pepito");
+        JefeEnvios jefe = JefeEnvios.obtenerInstancia();
 
         Envio envioMar1 = Factoria.dameObjeto("MA","77777", "45.50", "5", "UPC Villa");
         jefe.registrarEnvio(envioMar1);
