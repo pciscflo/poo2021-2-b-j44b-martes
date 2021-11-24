@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>relaciones</OriginalElement>
+  <nodes>
+    <node x="105.90347490347489" y="91.8957528957529">relaciones.Tanque</node>
+    <node x="277.0" y="296.0">relaciones.Torreta</node>
+    <node x="424.2123552123552" y="164.8571428571429">relaciones.Main</node>
+    <node x="-90.05019305019306" y="106.0">relaciones.Soldado</node>
+    <node x="27.8648648648649" y="0.0">relaciones.Atacante</node>
+    <node x="0.0" y="296.0">relaciones.Cuartel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="relaciones.Soldado" target="relaciones.Atacante" relationship="GENERALIZATION">
+      <point x="0.0" y="-72.5" />
+      <point x="-14.550193050193059" y="81.0" />
+      <point x="88.8648648648649" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="relaciones.Tanque" target="relaciones.Atacante" relationship="GENERALIZATION">
+      <point x="0.0" y="-72.5" />
+      <point x="219.4034749034749" y="81.0" />
+      <point x="88.8648648648649" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9217081850533808" showDependencies="false" x="215.5" y="271.0" />
+  <SelectedNodes>
+    <node>relaciones.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
